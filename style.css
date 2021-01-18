@@ -1,0 +1,26 @@
+h1{
+	font-family: cursive;
+	font-size: 3em;
+	border-bottom: 5px solid blue;
+	border-right: 5px solid blue;
+	width: 500px;
+	text-align: center;
+	box-shadow: 8px 8px 10px #34256662;
+}
+
+.view{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 350px;
+	height: 210px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
